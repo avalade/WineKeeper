@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178B3063BF26F47785A95053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178B39890578F90931A733C8 /* LaunchScreen.storyboard */; };
+		178B315A87647B0ED1003BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178B3DACF56E55CBA7BACC47 /* Main.storyboard */; };
+		178B31DF0E677A8445EB0600 /* Wine_KeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B3757570CDDBFE3BDC20E /* Wine_KeeperUITests.swift */; };
+		178B350E448E581E43FF3AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B3E083C06C0660133BD32 /* AppDelegate.swift */; };
+		178B373423799C936E8B442B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B3B2172BFB05B9BB8C721 /* ViewController.swift */; };
+		178B374E3D1725E61CD79C1E /* Wine_KeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B3258A3760ACE492257D9 /* Wine_KeeperTests.swift */; };
+		178B3E256F38B73F319E2C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178B390C26EF4103280CADB0 /* Assets.xcassets */; };
+		178B3FFCC9EB063292C73733 /* Wine_Keeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 178B3208E2DC68D38D3D77FC /* Wine_Keeper.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		178B32AC28D73D09FCC273EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178B367B3D8DEF2414FE2C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178B3840741DB0BF0845ACFB;
+			remoteInfo = "Wine Keeper";
+		};
+		178B3CB7451B58E5CC99D5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178B367B3D8DEF2414FE2C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178B3840741DB0BF0845ACFB;
+			remoteInfo = "Wine Keeper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178B30826BC558CC29BFAA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		178B3258A3760ACE492257D9 /* Wine_KeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine_KeeperTests.swift; sourceTree = "<group>"; };
+		178B356D08AC054F2B89EFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		178B35AFDD9A78CA61ED27EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		178B3757570CDDBFE3BDC20E /* Wine_KeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine_KeeperUITests.swift; sourceTree = "<group>"; };
+		178B38212E8B22334ADB5F4C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		178B38B6ED5CAE7E26B477E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		178B390C26EF4103280CADB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178B3B2172BFB05B9BB8C721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		178B3CBCC328AE3462FD3015 /* Wine KeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wine KeeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		178B3E083C06C0660133BD32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		178B3E11DC4F36AAF5BE1C6F /* Wine KeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wine KeeperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		178B3E2EDEF885C3355B513D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		178B3E460CA1636DA3B6F791 /* Wine Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wine Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		178B3FB202C9602E7918949C /* Wine_Keeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wine_Keeper.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178B32140362C928E51385C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178B36FF1DB0C6F2CFD2EEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178B37923774B9A8915B3714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178B320C09CE07FBFAB05D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178B3E460CA1636DA3B6F791 /* Wine Keeper.app */,
+				178B3E11DC4F36AAF5BE1C6F /* Wine KeeperTests.xctest */,
+				178B3CBCC328AE3462FD3015 /* Wine KeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178B3342E15318E2A1047003 /* Wine KeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				178B35AFDD9A78CA61ED27EE /* Info.plist */,
+				178B3258A3760ACE492257D9 /* Wine_KeeperTests.swift */,
+			);
+			path = "Wine KeeperTests";
+			sourceTree = "<group>";
+		};
+		178B334F16A9709F6ECA2C89 /* Wine Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				178B38B6ED5CAE7E26B477E1 /* Info.plist */,
+				178B390C26EF4103280CADB0 /* Assets.xcassets */,
+				178B39890578F90931A733C8 /* LaunchScreen.storyboard */,
+				178B3E083C06C0660133BD32 /* AppDelegate.swift */,
+				178B3208E2DC68D38D3D77FC /* Wine_Keeper.xcdatamodeld */,
+				178B3DACF56E55CBA7BACC47 /* Main.storyboard */,
+				178B3B2172BFB05B9BB8C721 /* ViewController.swift */,
+			);
+			path = "Wine Keeper";
+			sourceTree = "<group>";
+		};
+		178B39D0A252FC1A98C39AF1 = {
+			isa = PBXGroup;
+			children = (
+				178B320C09CE07FBFAB05D79 /* Products */,
+				178B334F16A9709F6ECA2C89 /* Wine Keeper */,
+				178B3342E15318E2A1047003 /* Wine KeeperTests */,
+				178B3F53FB0C9D36DFBB219D /* Wine KeeperUITests */,
+				178B38212E8B22334ADB5F4C /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		178B3F53FB0C9D36DFBB219D /* Wine KeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				178B356D08AC054F2B89EFEE /* Info.plist */,
+				178B3757570CDDBFE3BDC20E /* Wine_KeeperUITests.swift */,
+			);
+			path = "Wine KeeperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178B31C9C251C8202CDC154A /* Wine KeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178B3E3BE811DB83EF478AFB /* Build configuration list for PBXNativeTarget "Wine KeeperUITests" */;
+			buildPhases = (
+				178B39E911746ED9D07532E4 /* Sources */,
+				178B37923774B9A8915B3714 /* Frameworks */,
+				178B329CC24534C09737CFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178B357A808FAC6302BD77D7 /* PBXTargetDependency */,
+			);
+			name = "Wine KeeperUITests";
+			productName = "Wine KeeperUITests";
+			productReference = 178B3CBCC328AE3462FD3015 /* Wine KeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		178B35D47F2EA3171D3024E1 /* Wine KeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178B3241390A3A5BF8C83CDB /* Build configuration list for PBXNativeTarget "Wine KeeperTests" */;
+			buildPhases = (
+				178B307453B7336714F82897 /* Sources */,
+				178B32140362C928E51385C9 /* Frameworks */,
+				178B39308E051335D28AB976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178B36284D4E665C86958421 /* PBXTargetDependency */,
+			);
+			name = "Wine KeeperTests";
+			productName = "Wine KeeperTests";
+			productReference = 178B3E11DC4F36AAF5BE1C6F /* Wine KeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		178B3840741DB0BF0845ACFB /* Wine Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178B38B89ADB4497218D5099 /* Build configuration list for PBXNativeTarget "Wine Keeper" */;
+			buildPhases = (
+				178B369E68C4796E0AF58007 /* Sources */,
+				178B36FF1DB0C6F2CFD2EEF2 /* Frameworks */,
+				178B3B29A1593B30D90C6E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wine Keeper";
+			productName = "Wine Keeper";
+			productReference = 178B3E460CA1636DA3B6F791 /* Wine Keeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178B367B3D8DEF2414FE2C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Phunky Code";
+				TargetAttributes = {
+					178B31C9C251C8202CDC154A = {
+						DevelopmentTeam = 984GKV72EE;
+					};
+					178B35D47F2EA3171D3024E1 = {
+						DevelopmentTeam = 984GKV72EE;
+					};
+					178B3840741DB0BF0845ACFB = {
+						DevelopmentTeam = 984GKV72EE;
+					};
+				};
+			};
+			buildConfigurationList = 178B3936D52C946D6C25005F /* Build configuration list for PBXProject "Wine Keeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 178B39D0A252FC1A98C39AF1;
+			productRefGroup = 178B320C09CE07FBFAB05D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178B3840741DB0BF0845ACFB /* Wine Keeper */,
+				178B35D47F2EA3171D3024E1 /* Wine KeeperTests */,
+				178B31C9C251C8202CDC154A /* Wine KeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178B329CC24534C09737CFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178B39308E051335D28AB976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178B3B29A1593B30D90C6E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178B3E256F38B73F319E2C3E /* Assets.xcassets in Resources */,
+				178B3063BF26F47785A95053 /* LaunchScreen.storyboard in Resources */,
+				178B315A87647B0ED1003BFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178B307453B7336714F82897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178B374E3D1725E61CD79C1E /* Wine_KeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178B369E68C4796E0AF58007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178B350E448E581E43FF3AD4 /* AppDelegate.swift in Sources */,
+				178B3FFCC9EB063292C73733 /* Wine_Keeper.xcdatamodeld in Sources */,
+				178B373423799C936E8B442B /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178B39E911746ED9D07532E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178B31DF0E677A8445EB0600 /* Wine_KeeperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		178B357A808FAC6302BD77D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178B3840741DB0BF0845ACFB /* Wine Keeper */;
+			targetProxy = 178B32AC28D73D09FCC273EC /* PBXContainerItemProxy */;
+		};
+		178B36284D4E665C86958421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178B3840741DB0BF0845ACFB /* Wine Keeper */;
+			targetProxy = 178B3CB7451B58E5CC99D5AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		178B39890578F90931A733C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178B3E2EDEF885C3355B513D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		178B3DACF56E55CBA7BACC47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178B30826BC558CC29BFAA46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		178B3175C0C624B4DAE839BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 984GKV72EE;
+				INFOPLIST_FILE = "Wine Keeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.phunky.Wine-Keeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		178B3316E734C4323096D433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 984GKV72EE;
+				INFOPLIST_FILE = "Wine Keeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.phunky.Wine-Keeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178B33BA4FB1216027BC52B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wine Keeper.app/Wine Keeper";
+				DEVELOPMENT_TEAM = 984GKV72EE;
+				INFOPLIST_FILE = "Wine KeeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.phunky.Wine-KeeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		178B3447918858B906E48D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 984GKV72EE;
+				INFOPLIST_FILE = "Wine KeeperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.phunky.Wine-KeeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wine Keeper";
+			};
+			name = Release;
+		};
+		178B3496CDF15FDE18D2A0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wine Keeper.app/Wine Keeper";
+				DEVELOPMENT_TEAM = 984GKV72EE;
+				INFOPLIST_FILE = "Wine KeeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.phunky.Wine-KeeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		178B365D630F8388EE474494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178B3C7A0287855F33AB31FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 984GKV72EE;
+				INFOPLIST_FILE = "Wine KeeperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.phunky.Wine-KeeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wine Keeper";
+			};
+			name = Debug;
+		};
+		178B3E5341F835BE224E9E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178B3241390A3A5BF8C83CDB /* Build configuration list for PBXNativeTarget "Wine KeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178B3496CDF15FDE18D2A0B9 /* Debug */,
+				178B33BA4FB1216027BC52B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178B38B89ADB4497218D5099 /* Build configuration list for PBXNativeTarget "Wine Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178B3316E734C4323096D433 /* Debug */,
+				178B3175C0C624B4DAE839BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178B3936D52C946D6C25005F /* Build configuration list for PBXProject "Wine Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178B3E5341F835BE224E9E79 /* Debug */,
+				178B365D630F8388EE474494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178B3E3BE811DB83EF478AFB /* Build configuration list for PBXNativeTarget "Wine KeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178B3C7A0287855F33AB31FE /* Debug */,
+				178B3447918858B906E48D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		178B3208E2DC68D38D3D77FC /* Wine_Keeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				178B3FB202C9602E7918949C /* Wine_Keeper.xcdatamodel */,
+			);
+			currentVersion = 178B3FB202C9602E7918949C /* Wine_Keeper.xcdatamodel */;
+			path = Wine_Keeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 178B367B3D8DEF2414FE2C9D /* Project object */;
+}
