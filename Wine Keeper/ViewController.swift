@@ -13,8 +13,11 @@ import AVFoundation
 class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     var captureSession:AVCaptureSession?
     var videoPreviewLayer:AVCaptureVideoPreviewLayer?
-    var qrCodeFrameView:UIView?
-
+    var barCodeFrameView:UIView?
+    
+    //MARK: Properties
+    @IBOutlet weak var messageLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let deviceDiscoverySession = AVCaptureDevice.DiscoverySession(
@@ -38,6 +41,15 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
 
             captureMetadataOutput.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
             captureMetadataOutput.metadataObjectTypes = [AVMetadataObject.ObjectType.ean13]
+
+            barCodeFrameView = UIView()
+
+            if let barCodeFrameView = barCodeFrameView {
+                barCodeFrameView.layer.borderColor = UIColor.green.cgColor
+                barCodeFrameView.layer.borderWidth = 2
+                view.addSubview(barCodeFrameView)
+                view.bringSubviewToFront(barCodeFrameView)
+            }
         } catch {
             print(error)
             return
@@ -51,6 +63,22 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         captureSession!.startRunning()
     }
 
+    func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
+        if metadataObjects.count == 0 {
+            barCodeFrameView?.frame = CGRect.zero
+            messageLabel.text = "No bar code is detected"
+            return
+        }
 
+        let metadataObj = metadataObjects[0] as! AVMetadataMachineReadableCodeObject
 
+        if metadataObj.type == AVMetadataObject.ObjectType.ean13 {
+            let barCodeObject = videoPreviewLayer?.transformedMetadataObject(for: metadataObj)
+            barCodeFrameView?.frame = barCodeObject!.bounds
+
+            if metadataObj.stringValue != nil {
+                messageLabel.text = metadataObj.stringValue
+            }
+        }
+    }
 }

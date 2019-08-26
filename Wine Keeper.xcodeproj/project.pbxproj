@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		178B3063BF26F47785A95053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178B39890578F90931A733C8 /* LaunchScreen.storyboard */; };
+		178B30F202542BDBB4EF1AE9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 178B3F607AB656677D59E765 /* README.md */; };
 		178B315A87647B0ED1003BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178B3DACF56E55CBA7BACC47 /* Main.storyboard */; };
 		178B31DF0E677A8445EB0600 /* Wine_KeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B3757570CDDBFE3BDC20E /* Wine_KeeperUITests.swift */; };
 		178B350E448E581E43FF3AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178B3E083C06C0660133BD32 /* AppDelegate.swift */; };
@@ -49,6 +50,7 @@
 		178B3E11DC4F36AAF5BE1C6F /* Wine KeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wine KeeperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		178B3E2EDEF885C3355B513D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		178B3E460CA1636DA3B6F791 /* Wine Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wine Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		178B3F607AB656677D59E765 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		178B3FB202C9602E7918949C /* Wine_Keeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wine_Keeper.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 				178B3342E15318E2A1047003 /* Wine KeeperTests */,
 				178B3F53FB0C9D36DFBB219D /* Wine KeeperUITests */,
 				178B38212E8B22334ADB5F4C /* .gitignore */,
+				178B3F607AB656677D59E765 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -270,6 +273,7 @@
 				178B350E448E581E43FF3AD4 /* AppDelegate.swift in Sources */,
 				178B3FFCC9EB063292C73733 /* Wine_Keeper.xcdatamodeld in Sources */,
 				178B373423799C936E8B442B /* ViewController.swift in Sources */,
+				178B30F202542BDBB4EF1AE9 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
